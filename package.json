@@ -1,0 +1,35 @@
+{
+  "name": "fish-finder",
+  "version": "1.0.0",
+  "description": "Application to find similar fish based on viewing pictures of trout\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rex-smith/fish-finder.git"
+  },
+  "author": "Rex Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rex-smith/fish-finder/issues"
+  },
+  "homepage": "https://github.com/rex-smith/fish-finder#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "2.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}

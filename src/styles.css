@@ -1,0 +1,110 @@
+body {
+  font-family: "Arvo", serif;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.nav-logo {
+  margin-left: 20px;
+}
+
+.logo-container {
+}
+
+.company-name-container {
+}
+
+.company-name {
+  font-size: 2.5rem;
+  font-family: "Pacifico", cursive;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-items: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.hamburger {
+  font-size: 2.5rem;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.nav-link {
+  color: rgb(23, 51, 0);
+  padding: 15px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.full-dropdown {
+  position: relative;
+}
+
+.dropdown-link-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid lightgray;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 0px 0px 1px rgba(80, 80, 80, 0.1);
+  width: auto;
+}
+
+.drop-right {
+  right: 0;
+  left: auto;
+}
+
+.dropdown-link {
+  padding: 5px;
+  width: 150px;
+  background-color: beige;
+  margin: 1px;
+}
+
+.dropdown-link:hover {
+  background-color: lightgray;
+  border: 1px solid brown;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  background-color: rgb(194, 194, 175);
+  border-bottom: 2px solid rgb(23, 51, 0);
+}
+
+.nav-list {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .nav-list {
+    display: flex;
+  }
+  .hamburger {
+    display: none;
+  }
+}
